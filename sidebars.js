@@ -171,6 +171,7 @@ module.exports = {
       label: "Network Information",
       items: [
         "integrate/network",
+        "integrate/support-tools",
         {
           type: "category",
           label: "Network Details",
@@ -228,12 +229,7 @@ module.exports = {
           href: "https://status.matic.today/#/checkpoints",
         },
       ],
-    },
-    {
-      type: "category",
-      label: "Advanced",
-      items: ["integrate/advanced/setup-full-node-testnetv3"],
-    },
+    }
   ],
   Validate: [
     "validate/orientation",
